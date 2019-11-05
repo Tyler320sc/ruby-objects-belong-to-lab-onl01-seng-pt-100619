@@ -12,7 +12,7 @@ class Post
   #   @@all 
   # end
   
-  
+  post.author = author
   
   def author_name
     author.name if author
