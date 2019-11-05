@@ -21,4 +21,4 @@ class Post
   end 
 end 
 
-post.author = author
+Self.author = author
