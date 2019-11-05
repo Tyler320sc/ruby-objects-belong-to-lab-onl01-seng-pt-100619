@@ -11,9 +11,10 @@ class Post
   # def self.all
   #   @@all 
   # end
-  
+def post 
   post.author = author
-  
+end 
+
   def author_name
     author.name if author
   end 
