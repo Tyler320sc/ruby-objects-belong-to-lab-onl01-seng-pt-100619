@@ -12,12 +12,13 @@ class Post
   #   @@all 
   # end
   
-def post 
-  post.author = author
-end 
+# def post 
+#   post.author = author
+# end 
 
   def author_name
     author.name if author
   end 
 end 
 
+post.author = author
