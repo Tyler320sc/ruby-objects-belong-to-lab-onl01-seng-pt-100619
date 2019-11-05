@@ -12,9 +12,9 @@ class Post
   #   @@all 
   # end
   
-# def post 
-#   post.author = author
-# end 
+def post 
+  Post.author = author
+end 
 
   def author_name
     author.name if author
